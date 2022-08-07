@@ -12,21 +12,6 @@
   <title>Tourist's Guide</title>
 <style>
 
-header{
-      background: url(img/man.jpg);
-      background-size: cover;
-      background-position: center;
-      min-height: 1000px;
-    }
-    @media screen and (max-width: 670px){
-      header{
-        min-height: 500px;
-      }
-    }
-    .section{
-      padding-top: 4em;
-   
-    }
     .tabs .tab a:focus, .tabs .tab a:focus.active {
     background-color: rgba(108, 130, 191, 0.2);
     outline: none;
@@ -43,32 +28,37 @@ header{
     background-color: #1a3e3d;
     will-change: left, right;
 }
-
 </style>
 </head>
-<body class="grey lighten-4">
+<body>
 
   <!-- navbar -->
   <header>
-<nav class="nav-wrapper ">
+<nav class="nav-wrapper   grey darken-2">
   <div class="container">
-    <a href="" class="brand-logo">Welcome To Zambia</a>
+    <a href="home.php" class="brand-logo">Welcome To Zambia</a>
     <a href="" class="sidenav-trigger" data-target="mobile-menu">  
       <i class="material-icons">menu</i></a>
   
     <ul class="right hide-on-med-and-down">
-      <li><a href="#photos" class="" id="">Photos</a>
-      <li><a href="#services" class="" id="">Services</a>
-      <li><a href="#contacts" class="" id="">Contacts</a></li>
+      <li><a href="lakes.php" class="" id="">Lakes</a>
+      <li><a href="rivers.php" class="" id="">Rivers</a>
+      <li><a href="waterfalls.php" class="" id="">Waterfalls</a>
+      <li><a href="entryFees.php" class="" id="">Entry</a>
+      <li><a href="add.php" class="" id="">Competition</a>
+    </li>
      
     </ul>
     <ul class="sidenav grey lighten-2" id="mobile-menu">
-      <li><a href="#">Photo's</a></li>
-      <li><a href="#">Services</a></li>
-      <li><a href="#">Contact</a></li>
+      <li><a href="lakes.php" class="" id="">Lakes</a>
+      <li><a href="rivers.php" class="" id="">Rivers</a>
+      <li><a href="waterfalls.php" class="" id="">Waterfalls</a>
+      <li><a href="entryFees.php" class="" id="">Entry</a>
+      <li><a href="add.php" class="" id="">Competition</a>
        
       </a></li>
       </a></li>
     </ul>
   </div>
 </nav>
+</header>

@@ -26,7 +26,7 @@ mysqli_close($conn);
 <?php foreach($comps as $comp) { ?>
 
   <div class="col s6 md3">
-    <div class="card z-depth-0">
+    <div class="card z-depth-0  lime lighten-4">
       <div class="card-content center">
         <h5><?php echo htmlspecialchars($comp['First_Name' ]) .' '. ($comp['Last_Name']); ?></h5>
         <div><?php echo htmlspecialchars($comp['email']);  ?></div>

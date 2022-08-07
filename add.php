@@ -76,7 +76,7 @@ $sql = "INSERT INTO competiters(First_Name, Last_Name, email, Receipt_No) VALUES
       <img src="img/trees.jpg" alt="" class="responsive-img materialboxed">
     </div>
     <div class="col s12 l6 pull-l5 right-align offset-l1">
-      <h2 class="indigo-text darken-4">CityScapes</h2>
+      <h2 class="indigo-text darken-4">Paricipation</h2>
       <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam non magnam commodi impedit?</p>
     </div>
   </div>
@@ -86,7 +86,7 @@ $sql = "INSERT INTO competiters(First_Name, Last_Name, email, Receipt_No) VALUES
       <img src="img/watch.jpg" alt="" class="responsive-img materialboxed">
     </div>
     <div class="col s12 l6">
-      <h2 class="indigo-text darken-4">Nature</h2>
+      <h2 class="indigo-text darken-4">Prizes</h2>
       <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam non magnam commodi impedit?</p>
     </div>
   </div>

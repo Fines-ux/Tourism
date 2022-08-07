@@ -1,6 +1,12 @@
-</header>
-   <!-- footer -->
 
+   <!-- footer -->
+   <style>
+   .page-footer {
+    margin-top: 20px;
+
+   
+}
+</style>
    <footer class="page-footer grey darken-3">
   <div class="container">
   <div class="row">
@@ -31,7 +37,7 @@
       </div>
   </div>
   <div class="footer-copyright grey darken-4">
-    <div class="container center-align">&copy; 2022 Photo Ninja</div>
+    <div class="container center-align">&copy; 2022 G330i_progz</div>
   </div>
 </footer>
   <!-- Compiled and minified JavaScript -->
