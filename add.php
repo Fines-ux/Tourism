@@ -44,7 +44,7 @@ $sql = "INSERT INTO competiters(First_Name, Last_Name, email, Receipt_No) VALUES
   // save to db and check
   if(mysqli_query($conn, $sql)){
     // success
-    header('Location: adminpage.php');
+    header('Location: login.php');
   }
  else {
   echo 'query error: '. mysqli_error($conn);
@@ -53,6 +53,45 @@ $sql = "INSERT INTO competiters(First_Name, Last_Name, email, Receipt_No) VALUES
 }
 
 ?>
+
+<section class="container ">
+   <h3 class="center-align indigo-text darken-4">Welcome To The Competition Page</h3>
+  
+</section>
+
+
+<section class="container section scrollspy" id="photos">
+  <div class="row">
+    <div class="col s12 l4 ">
+      <img src="img/sail.jpg" alt="" class="responsive-img materialboxed">
+    </div>
+    <div class="col s12 l6 offset-l1">
+      <h2 class="indigo-text darken-4">Summary</h2>
+      <p>This is the competition page, where you stand a chance to win a free trip(vacation) to Livingstone.</p>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col s12 l4 push-l7 offset-l1">
+      <img src="img/trees.jpg" alt="" class="responsive-img materialboxed">
+    </div>
+    <div class="col s12 l6 pull-l5 right-align offset-l1">
+      <h2 class="indigo-text darken-4">CityScapes</h2>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam non magnam commodi impedit?</p>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col s12 l4">
+      <img src="img/watch.jpg" alt="" class="responsive-img materialboxed">
+    </div>
+    <div class="col s12 l6">
+      <h2 class="indigo-text darken-4">Nature</h2>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam non magnam commodi impedit?</p>
+    </div>
+  </div>
+</section>
+
   <div class="row">        
     <form class="col s12" action ="add.php" method="POST">
       <div class="row">

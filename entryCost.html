@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Discount Calculator</title>
+  </head>
+  <body>
+    <div class="card">
+      <h1>Calculate Total Cost Of Entry</h1>
+      <form action="#">
+        <div class="input-item">
+          <label for="number">Enter Number Of People:</label>
+          <input type="text" id="number" placeholder="Discount for 20 and 40 people only"/>
+        </div>
+
+        <div class="input-item">
+          <label for="currency-charge">Select Currency Charge:</label>
+          <select name="amount" id="currency-charge">
+            <option value="32.80">K32.80 For Zambians Each</option>
+            <option value="20">$20 For Other Nationalities Each</option>
+          </select>
+        </div>
+
+        <div class="input-item">
+          <label for="discount-percentage">Select discount %</label>
+          <select name="percentage" id="discount-percentage">
+            <option value="5">5% Group Of 20</option>
+            <option value="8">8% Group Of 40</option>
+          </select>
+        </div>
+
+        <div class="input-item">
+          <label for="full-amount">Full Amount (Without Discount):</label>
+          <input type="text" id="full-amount" disabled />
+        </div>
+
+        <div class="input-item">
+          <label for="discount-amount">Discount Amount:</label>
+          <input type="text" id="discount-amount" disabled />
+        </div>
+
+        <div class="input-item">
+          <label for="amount-after-discount" >After Discount:<label>
+          <input type="text" id="amount-after-discount" disabled />
+        </div>
+
+        <button type="submit" class="calculate">Calculate</button>
+        <input
+          type="reset"
+          value="Reset"
+          onClick="window.location.reload()"
+          class="reset"
+        />
+    <a href="entryFees.html" target="_blank" class="backbutton">Back</a>       
+      </form>
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>

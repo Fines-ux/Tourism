@@ -52,7 +52,7 @@ header{
   <header>
 <nav class="nav-wrapper ">
   <div class="container">
-    <a href="#" class="brand-logo">Welcome To Zambia</a>
+    <a href="" class="brand-logo">Welcome To Zambia</a>
     <a href="" class="sidenav-trigger" data-target="mobile-menu">  
       <i class="material-icons">menu</i></a>
   
@@ -66,7 +66,6 @@ header{
       <li><a href="#">Photo's</a></li>
       <li><a href="#">Services</a></li>
       <li><a href="#">Contact</a></li>
-      <li><a href="#" class="tooltipped btn-floating btn-small indigo darken-4" data-position="bottom" data-tooltip="Instagram"> 
        
       </a></li>
       </a></li>
